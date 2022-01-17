@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_structs.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{95fc7fdc-570d-4a17-82e8-b5e6d99c7610}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
